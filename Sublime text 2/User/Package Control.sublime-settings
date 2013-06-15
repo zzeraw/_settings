@@ -1,0 +1,20 @@
+{
+	"installed_packages":
+	[
+		"Alignment",
+		"DocBlockr",
+		"Emmet",
+		"EncodingHelper",
+		"FileDiffs",
+		"LESS",
+		"LineEndings",
+		"Minifier",
+		"Package Control",
+		"PHPUnit",
+		"ReadmePlease",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"Tag",
+		"Theme - Soda"
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"auto_id_class": true,
+	"color_scheme": "Packages/User/zzeraw.tmTheme",
+	"detect_slow_plugins": false,
+	"draw_white_space": "all",
+	"fallback_encoding": "Cyrillic (Windows 1251)",
+	"font_face": "Consolas",
+	"font_options":
+	[
+		"gray_antialias",
+		"subpixel_antialias"
+	],
+	"font_size": 10,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers":
+	[
+		100
+	],
+	"soda_classic_tabs": false,
+	"soda_folder_icons": false,
+	"theme": "Soda Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": "true"
+}
