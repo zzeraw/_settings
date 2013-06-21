@@ -11,6 +11,7 @@
 		"LineEndings",
 		"Minifier",
 		"Package Control",
+		"Phpcs",
 		"PHPUnit",
 		"ReadmePlease",
 		"SideBarEnhancements",

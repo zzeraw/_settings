@@ -1,0 +1,110 @@
+{
+    // Example for:
+    // - Windows 7
+    // - With phpcs and php-cs-fixer support
+
+    // We want debugging on
+    "show_debug": true,
+
+    // Only execute the plugin for php files
+    "extensions_to_execute": ["php"],
+
+    // Do not execute for twig files
+    "extensions_to_blacklist": [],
+
+    // Execute the sniffer on file save
+    "phpcs_execute_on_save": false,
+
+    // Show the error list after save.
+    "phpcs_show_errors_on_save": false,
+
+    // Show the errors in the gutter
+    "phpcs_show_gutter_marks": true,
+
+    // Show outline for errors
+    "phpcs_outline_for_errors": true,
+
+    // Show the errors in the status bar
+    "phpcs_show_errors_in_status": true,
+
+    // Show the errors in the quick panel so you can then goto line
+    "phpcs_show_quick_panel": true,
+
+    // Path to php on windows installation
+    // This is needed as we cannot run phars on windows, so we run it through php
+    "phpcs_php_prefix_path": "D:\\server\\usr\\local\\php5\\php.exe",
+
+    // We want the fixer to be run through the php application
+    "phpcs_commands_to_php_prefix": ["Fixer"],
+
+
+    // PHP_CodeSniffer settings
+    // Yes, run the phpcs command
+    "phpcs_sniffer_run": true,
+
+    // And execute it on save
+    "phpcs_command_on_save": false,
+
+    // This is the path to the bat file when we installed PHP_CodeSniffer
+    "phpcs_executable_path": "D:\\server\\usr\\local\\php5\\phpcs.bat",
+
+    // I want to run the PSR2 standard, and show warnings
+    "phpcs_additional_args": {
+        "--standard": "PEAR",
+        "-w": ""
+    },
+
+
+    // PHP-CS-Fixer settings
+    // Don't want to auto fix issue with php-cs-fixer
+    "php_cs_fixer_on_save": false,
+
+    // Show the quick panel
+    "php_cs_fixer_show_quick_panel": true,
+
+    // The fixer phar file is stored here:
+    "php_cs_fixer_executable_path": "D:\\server\\usr\\local\\php5\\php-cs-fixer.phar",
+
+    // Additional arguments, run all levels of fixing
+    "php_cs_fixer_additional_args": {
+        "--level": "all"
+    },
+
+
+    // PHP Mess Detector settings
+
+    // Execute phpmd
+    "phpmd_run": true,
+
+    // Execute the phpmd on file save
+    "phpmd_command_on_save": false,
+
+    // It seems python/sublime cannot always find the phpmd application
+    // If empty, then use PATH version of phpmd, else use the set value
+    "phpmd_executable_path": "D:\\server\\usr\\local\\php5\\phpmd.bat",
+
+    // Additional arguments you can specify into the application
+    //
+    // Example:
+    // {
+    //     "codesize,unusedcode"
+    // }
+    "phpmd_additional_args": {
+        "codesize,unusedcode,naming": ""
+    },
+
+
+    // PHP Linter settings
+    // Yes, lets lint the files
+    "phpcs_linter_run": false,
+
+    // And execute that on each file when saved (php only as per extensions_to_execute)
+    "phpcs_linter_command_on_save": true,
+
+    // Path to php
+    "phpcs_php_path": "D:\\server\\usr\\local\\php5\\php.exe",
+
+    // This is the regex format of the errors
+    "phpcs_linter_regex": "(?P<message>.*) on line (?P<line>\\d+)"
+
+}

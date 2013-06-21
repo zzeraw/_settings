@@ -1,0 +1,6 @@
+[
+    { "keys": ["ctrl+alt+t"], "command": "phpcs_sniff_this_file" },
+    { "keys": ["ctrl+alt+p"], "command": "phpcs_show_previous_errors" },
+    { "keys": ["ctrl+alt+c"], "command": "phpcs_clear_sniffer_marks" },
+    { "keys": ["ctrl+alt+g"], "command": "phpcs_fix_this_file" }
+]
