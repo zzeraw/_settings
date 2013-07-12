@@ -1,4 +1,5 @@
 {
+	"auto_complete_commit_on_tab": true,
 	"auto_id_class": true,
 	"color_scheme": "Packages/User/zzeraw.tmTheme",
 	"detect_slow_plugins": false,
@@ -23,6 +24,7 @@
 	],
 	"soda_classic_tabs": false,
 	"soda_folder_icons": false,
+	"tab_size": 4,
 	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,

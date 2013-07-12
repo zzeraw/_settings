@@ -2,10 +2,12 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"Alternative Autocompletion",
 		"ColorPicker",
 		"DocBlockr",
 		"Emmet",
 		"EncodingHelper",
+		"ERB Insert and Toggle Commands",
 		"FileDiffs",
 		"LESS",
 		"LineEndings",
@@ -14,6 +16,7 @@
 		"Phpcs",
 		"PHPUnit",
 		"ReadmePlease",
+		"RubyTest",
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"Tag",
