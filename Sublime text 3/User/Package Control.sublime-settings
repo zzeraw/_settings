@@ -1,0 +1,33 @@
+{
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"All Autocomplete",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"ColorPicker",
+		"ConvertToUTF8",
+		"DocBlockr",
+		"Emmet",
+		"Emmet Css Snippets",
+		"EncodingHelper",
+		"FileDiffs",
+		"HTML5",
+		"jQuery",
+		"LESS",
+		"Markdown Preview",
+		"Minifier",
+		"Package Control",
+		"Phpcs",
+		"Prefixr",
+		"ReadmePlease",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-php",
+		"Tag",
+		"Theme - Soda"
+	]
+}
