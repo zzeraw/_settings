@@ -6,13 +6,37 @@
         "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
         "gutter_theme_excludes": [],
         "lint_mode": "background",
-        "linters": {},
+        "linters": {
+            "csslint": {
+                "@disable": false,
+                "args": [],
+                "errors": "",
+                "excludes": [],
+                "ignore": "",
+                "warnings": ""
+            },
+            "jshint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "php": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            }
+        },
         "mark_style": "outline",
         "no_column_highlights_line": false,
         "paths": {
             "linux": [],
             "osx": [],
-            "windows": []
+            "windows": [
+                // "d:/OpenServer/modules/php/PHP-5.2.17/",
+                "d:/OpenServer/modules/php/PHP-5.3.27/",
+                // "d:/OpenServer/modules/php/PHP-5.4.22/",
+                // "d:/OpenServer/modules/php/PHP-5.5.6/",
+            ]
         },
         "python_paths": {
             "linux": [],
