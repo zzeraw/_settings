@@ -6,6 +6,7 @@
 		"All Autocomplete",
 		"Autoprefixer",
 		"BracketHighlighter",
+		"Clipboard Manager",
 		"Color Highlighter",
 		"ColorPicker",
 		"ConvertToUTF8",
@@ -17,10 +18,10 @@
 		"HTML5",
 		"jQuery",
 		"LESS",
-		"Markdown Preview",
+		"MarkdownEditing",
 		"Minifier",
 		"Package Control",
-		"Phpcs",
+		"PlainTasks",
 		"ReadmePlease",
 		"Sass",
 		"SideBarEnhancements",
@@ -29,6 +30,8 @@
 		"SublimeLinter-csslint",
 		"SublimeLinter-php",
 		"Tag",
-		"Theme - Soda"
+		"Theme - Soda",
+		"WordCount",
+		"WordHighlight"
 	]
 }

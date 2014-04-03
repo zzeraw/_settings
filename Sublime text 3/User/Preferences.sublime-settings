@@ -3,6 +3,7 @@
 	"auto_id_class": true,
 	"color_scheme": "Packages/User/iPlastic (SL).tmTheme",
 	"detect_slow_plugins": false,
+	"dictionary": "Packages/Language - Russian/Russian.dic",
 	"draw_white_space": "all",
 	"fallback_encoding": "Cyrillic (Windows 1251)",
 	"font_face": "Consolas",
@@ -16,8 +17,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Phpcs"
+		"Markdown",
+		"Vintage"
 	],
 	"rulers":
 	[
@@ -25,6 +26,7 @@
 	],
 	"soda_classic_tabs": false,
 	"soda_folder_icons": false,
+	"spell_check": false,
 	"tab_size": 4,
 	"theme": "Soda Light.sublime-theme",
 	"translate_tabs_to_spaces": true,
